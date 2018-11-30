@@ -20,7 +20,7 @@ class Home extends Component{
             <ImageBackground style={{flex: 1, justifyContent: 'center', alignItems: 'center' }} source={require('../images/backGround.jpg')}>
                 {goQuiz ?
 
-                        <View style={{ backgroundColor: 'rgba(250,229,184,0.8)', marginHorizontal:40}}>
+                        <View style={{ backgroundColor: 'rgba(250,229,184,0.5)', marginHorizontal:40}}>
                             <View style={{paddingVertical: 30, paddingHorizontal: 30}}>
                                 <Text style={{textAlign: 'center', fontSize:22}}>
                                     what is your name ?
